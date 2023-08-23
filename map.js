@@ -26,6 +26,14 @@ const friendName =['Aminur' , 'Arafat' , 'Prosenjit'];
 console.log(friendsName.filter(name => name.length < 7));  
 
 
-// find: jara condition puron korbe tader moddhe 1st element k nibe
+// find: jara condition puron korbe tader moddhe sudhu 1st element k print korbe
 const arr = [1,2,3,4,5,6,7,8,9,10];
 console.log(arr.find(a => a > 5))
+
+
+// reduce: prottek ta element k nibe. 
+//aktar sathe r akta jog korche, last parameter initial value
+
+
+const array = [1,2,3,4,5,6,7,8,9,10];
+console.log(array.reduce((previous, current)=> previous + current , 0)); 
